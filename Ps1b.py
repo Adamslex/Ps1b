@@ -4,8 +4,9 @@ portion_saved = float(input("Enter the percent of your salary to save, in decima
 total_cost = float(input("Enter the cost of your dream home: "))
 #new Variable for the Question 1b for semi annual raise incrsement....
 semi_annual_raise = float(input("Enter the semi­annual raise, as a decimal: "))
-#to get the portion down payment 
-portion_down_ayment = totalCost * 0.25
+#to get the portion down payment
+#the portion down payment is to make it from the cost payment multiply by the percnetage
+portion_down_ayment = totalCost * 0.28
 #initializing the current saving getting a return value from monthly salary X by portion saved plus value of current+
 currentSavings = 0
 r = 0.04
